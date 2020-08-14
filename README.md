@@ -2,9 +2,9 @@
 
 Programa que permite realizar la simulacion del algoritmo de compresión LZ77. 
 
-### Para la codificación: se emplea un campo de texto con la frase que se desea codificar, y posterior a ejecutar el algoritmo, el aplicativo exporta las tripletas resultantes a un archivo de texto plano. 
+- Para la codificación: se emplea un campo de texto con la frase que se desea codificar, y posterior a ejecutar el algoritmo, el aplicativo exporta las tripletas resultantes a un archivo de texto plano. 
 
-### Para la decodificación: se carga un archivo de texto plano que incluya las tripletas a decodificar, y posterior al proceso de decodificación, se muestra la palabra decodificada en un área de texto del aplicativo. 
+- Para la decodificación: se carga un archivo de texto plano que incluya las tripletas a decodificar, y posterior al proceso de decodificación, se muestra la palabra decodificada en un área de texto del aplicativo. 
 
 *Nota: Ejecutar en NetBeans 12.0*
 
