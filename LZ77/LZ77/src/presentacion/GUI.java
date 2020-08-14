@@ -459,6 +459,7 @@ public class GUI implements ActionListener{
         try {
             //Se abre el archivo seleccionado y se retorna
             String ruta = fileChooser.getSelectedFile().getAbsolutePath();
+            taSalida.setText("Ruta: " + ruta);
             File f = new File(ruta);
             return f;
             
@@ -505,7 +506,7 @@ public class GUI implements ActionListener{
                 JOptionPane.showMessageDialog(null, "El texto a codificar está vacio");
                 
                 //Ejecución de un ejemplo sin el textarea
-                ejemploDeCodificacion();
+                //ejemploDeCodificacion();
                 
             } else {
                 
