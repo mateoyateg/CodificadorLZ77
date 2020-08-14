@@ -520,6 +520,9 @@ public class GUI implements ActionListener{
         if (e.getSource() == btDecodificar){
             System.out.println("Boton de decodificar fue presionado...");
             
+            //Limpiar el area de texto
+            tfEntrada.setText("");
+            
             //Se llama al metodo que gestiona el ingreso de datos de decodificacion
             procesoDecodificacion();
             
