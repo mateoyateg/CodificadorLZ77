@@ -481,7 +481,7 @@ public class GUI implements ActionListener{
     
     //Metodo para comprobar la correcta escritura de una tripleta
     public boolean comprobarTripleta(String tripleta) {
-        Pattern pat = Pattern.compile("^[<][\\d]{1,},[\\d]{1,},[a-zA-ZáéíóúÁÉÍÓÚ]{0,}[\\s]{0,}[>]$");
+        Pattern pat = Pattern.compile("^[<][\\d]{1,},[\\d]{1,},[a-zA-ZáéíóúÁÉÍÓÚ]{0,}[\\s]{0,}[\\d]{0,}[>]$");
         Matcher mat = pat.matcher(tripleta);
         if (mat.matches()) {
             System.out.println("Tripleta " + tripleta + "valida");
