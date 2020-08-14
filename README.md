@@ -1,4 +1,4 @@
-# Proyecto de Codificador y Decodificador empleando el Algoritmo LZ77
+# Codificador y Decodificador empleando el Algoritmo LZ77
 
 Programa que permite realizar la simulacion del algoritmo de compresión LZ77. 
 
